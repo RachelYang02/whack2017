@@ -67,9 +67,6 @@ def ownership_measure(word_dict):
 		second_person += word_dict["our"]
 
 	return (float(first_person) / (second_person + first_person))
-
-def openness_measure(text):
-	pass
 	
 
 if __name__ == "__main__":
