@@ -68,7 +68,14 @@ def ownership_measure(word_dict):
 
 	return (float(first_person) / (second_person + first_person))
 
+def openness_measure(text):
+	pass
+	
+
 if __name__ == "__main__":
 	word_dict, total_words = word_freq(sample_2)
 	# print overused_words(word_dict, total_words)
 	# print ownership_measure(word_dict)
+
+
+
