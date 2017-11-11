@@ -1,0 +1,48 @@
+{
+  "languageModel": {
+    "types": [
+      {
+        "name": "catchAll",
+        "values": [
+          {
+            "id": null,
+            "name": {
+              "value": "My first teaming experience was a disaster.",
+              "synonyms": []
+            }
+          }
+        ]
+      }
+    ],
+    "intents": [
+      {
+        "name": "AMAZON.CancelIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.HelpIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.StopIntent",
+        "samples": []
+      },
+      {
+        "name": "AskQuestionIntent",
+        "samples": [
+          "Good question {catchAll}",
+          "That is a good question {catchAll}",
+          "Good questions {catchAll} {catchAll}",
+          "Good question"
+        ],
+        "slots": [
+          {
+            "name": "catchAll",
+            "type": "catchAll"
+          }
+        ]
+      }
+    ],
+    "invocationName": "pantsuit up"
+  }
+}
